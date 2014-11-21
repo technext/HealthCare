@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="img/season-change.jpg" type="image/x-icon">
+		<title>HealthCare</title>
+
+		<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/owl.theme.css">
+	    <link rel="stylesheet" type="text/css" href="assets/css/owl.transitions.css">
+	    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+	    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+	    <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+	    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700' rel='stylesheet' type='text/css'>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+		<script type="text/javascript" src="assets/js/wow.min.js"></script>
+		<script type="text/javascript" src="assets/js/owl.carousel.js"></script>
+		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+		
+		<script>
+	      function initialize() {
+	        var mapCanvas = document.getElementById('map-canvas');
+	        var mapOptions = {
+	          center: new google.maps.LatLng(24.900392, 91.853181),
+	          zoom: 16,
+	          mapTypeId: google.maps.MapTypeId.ROADMAP
+	        }
+	        var map = new google.maps.Map(mapCanvas, mapOptions)
+	      }
+	      google.maps.event.addDomListener(window, 'load', initialize);
+	    </script>
+		
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	</head>
+
+	<body>
+		<section class= "navs">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  				<div class="container-fluid">
+    				<!-- Brand and toggle get grouped for better mobile display -->
+    				<div class="navbar-header">
+      					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+	      				</button>
+	      				<a class="navbar-brand logo" href="#">
+	      					HealthCare
+	      				</a>
+	    			</div>
+
+    		<!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				    	<ul class="nav navbar-nav navbar-right">
+					        <li><a href="index.html">Home</a></li>
+					        <li><a href="services.html">Services</a></li>
+					        <li><a href="doctors.html">Doctors</a></li>
+					        <li><a href="blog.html">Blog</a></li>
+							<li><a href="faq.html">FAQs</a></li>
+							<li><a href="gallery.html">Gallery</a></li>
+							<li class="active"><a href="#">Contact Us</a></li>
+				      	</ul>
+				    </div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+		</section>
+
+		<section class="contact-title text-center">
+			<div class="contact-wrapper">
+				<div class="container">
+					<div class= "row">
+						<div class="headline">
+							<h1>Contact us</h1>
+						</div>
+					</div>
+					<div class="row">
+						<div class="sub-headline">
+							<p>Lorem ipsum dolor sit amet, consectetur </p>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</section>
+
+
+		<section class="contact-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="google-map">
+							<div id="map-canvas"></div>
+						</div>
+						<div class="quick-contact">
+							<h3>Quick Contact</h3>
+							<hr>
+							<div class="row">
+								<div class="col-md-6">
+									<p>
+										<i class="fa fa-home"></i> 
+										<span>Full Address:</span> 
+										62 West 55th Street, Suite 302 New York, NY, 10230
+									</p>
+								</div>
+								<div class="col-md-6">
+									<p>
+										<i class="fa fa-phone"></i>
+										<span>Cell No:</span>
+										 +880 1234567890
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<p>
+										<i class="fa fa-fax"></i> 
+										<span>Fax No:</span>
+										+58 - 0123456789
+									</p>
+								</div>
+								<div class="col-md-6">
+									<p>
+										<i class="fa fa-ambulance"></i>
+										<span>Ambulance:</span>
+										 + 000 987654321
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="msg-form">
+							<h3>Leave us a message</h3>
+							<hr>
+
+							<!--  form for message  -->
+							<div class="row">
+								<form method="post" action="#">
+									<div class= "form">
+										<div class="input-group margin-bottom-sm col-md-5">
+			  								<span class="input-group-addon">
+			  									<i class="fa fa-user fa-fw"></i>
+			  								</span>
+										 	<input class="form-control" type="text" placeholder="Name *" required>
+										</div>
+										<div class="input-group margin-bottom-sm col-md-5">
+			  								<span class="input-group-addon">
+			  									<i class="fa fa-envelope-o fa-fw"></i>
+			  								</span>
+										 	<input class="form-control" type="text" placeholder="Email address *" required>
+										</div>
+										<div class="input-group margin-bottom-sm col-md-5">
+			  								<span class="input-group-addon">
+			  									<i class="fa fa-tags fa-fw"></i>
+			  								</span>
+										 	<input class="form-control" type="text" placeholder="Subject *" required>
+										</div>
+										<div class="input-group margin-bottom-sm col-md-5">
+			  								<span class="input-group-addon">
+			  									<i class="fa fa-mobile fa-fw"></i>
+			  								</span>
+										 	<input class="form-control" type="text" placeholder="Mobile">
+										</div>
+									</div>
+									<div class="input-group margin-bottom-sm col-md-11">
+											<span class="input-group-addon">
+												<i class="fa fa-pencil fa-fw"></i>
+											</span>
+										<textarea class="form-control" rows="6" type= "text" placeholder="Your Message *" required></textarea>
+									</div>
+									<input class="btn btn-primary send" type="submit" value="Send Message">
+								</form>
+							</div>
+
+							<!-- end of form -->
+
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class= "appointment">
+							
+		                    <div class="header text-center">
+		                        <h2>Make an Appointment</h2>
+		                       	<a href="#" class="number">
+		                       		<i class="fa fa-phone fa-fw"></i>
+									1-234-567-890
+		                       	</a>
+		                        <span class="or">OR</span>
+		                    </div>
+
+							<!-- form of appointment -->
+							<div class="row">
+								<form method="post" action="#">
+									<div class= "form">
+										<div class="input-group margin-bottom-sm col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+										 	<input class="form-control" type="text" placeholder="Full Name *" required>
+										</div>
+										<div class="input-group margin-bottom-sm col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+										 	<input class="form-control" type="text" placeholder="Email Address *" required>
+										</div>
+										<div class="input-group margin-bottom-sm col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+										 	<input class="form-control" type="text" placeholder="Appointment Date *" required>
+										</div>
+										<div class="input-group margin-bottom-sm col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+										 	<input class="form-control" type="text" placeholder="Mobile Number *" required>
+										</div>
+									</div>
+									<div class="input-group margin-bottom-sm col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+										<textarea class="form-control" rows="6" type= "text" placeholder="Your Problem *" required></textarea>
+									</div>
+									<div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+										<div class="captcha-container">
+		                                    <label>Are you human? </label><br/>
+		                                    <img src="http://inspirythemesdemo.com/healthpress/wp-content/themes/healthpress-theme/captcha/captcha.php" alt="">
+		                                    <input type="text" class="captcha required" name="captcha" maxlength="5" title=" Please enter the code characters displayed in image!">
+		                                </div>
+										<input class="btn btn-primary send" type="submit" value="Send">
+									</div>
+								</form>
+							</div>
+							<!-- end of form -->
+						</div><!-- end of appointment-->
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<ul class="text-center contact">
+				        	<li class= "socials-icons">
+								<a href="#" data-toggle="tooltip" title="Share in Facebook" class="facebook"><i class="fa fa-facebook"></i></a>
+							</li>
+							<li class= "socials-icons">
+								<a href="#" data-toggle="tooltip" title="Share in Twitter" class="twitter"><i class="fa fa-twitter"></i></a>
+							</li>
+							<li class= "socials-icons">
+								<a href="#" data-toggle="tooltip" title="Share in Google +" class="google-plus"><i class="fa fa-google-plus"></i></a>
+							</li>
+							<li class= "socials-icons">
+								<a href="#" data-toggle="tooltip" title="Share in Instagram" class="instagram"><i class="fa fa-instagram"></i></a>
+							</li>
+							<li class= "socials-icons">
+								<a href="#" data-toggle="tooltip" title="Share in Pinterest" class="pinterest"><i class="fa fa-pinterest"></i></a>
+							</li>
+							<li class= "socials-icons">
+								<a href="#" data-toggle="tooltip" title="Connect with Skype" class="skype"><i class="fa fa-skype"></i></a>
+							</li>
+				      	</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="copy-right-text text-center">
+							Copyright 2014 © ThemeWagon. All Rights Reserved.
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+		<script>
+      		new WOW().init();
+		</script>
+
+
+	</body>
+</html>
