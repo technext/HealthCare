@@ -1109,9 +1109,9 @@ main p {
     color: rgb(73, 77, 123);
     text-shadow: 1px 1px rgb(179, 207, 207);
 }
-.quick-contact 
-{
+.quick-contact {
     font-size: 17px;
+    margin-bottom: 40px;
 }
 .msg-form
 {
