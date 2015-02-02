@@ -368,26 +368,28 @@ li:last-child
 }
 /*---------------------------------------------- 1.2 starting-text ----------------------------------*/
 
-.welcome {
+
+.welcome 
+{
+    
+    /* background-color: #6DBEC2; */
+    background-color: #3E8B90;
+    padding: 48px 68px;
     text-align: center;
-    background: url(../img/1_235555_1.jpg);
-    background-size: cover;
-    vertical-align: middle;
-    background-position: center;
-    color: #F0FEFF;
-    margin-top: 72px;
-    padding-top: 20px;
-    height: 400px;
+    width: 100%;
+    margin-top: -37px;
+    z-index: 999;
+    position: relative;
 }
-.welcome-title {
+.welcome-title 
+{
     font-size: 50px;
     padding-bottom: 15px;
-    color: #C5E8FB;
-    font-weight: 300;
+    color: #B0FFF6;
 }
 .welcome-txt 
 {
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
     line-height: 35px;
     margin-bottom: 26px;
