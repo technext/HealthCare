@@ -62,6 +62,10 @@ a:hover
     text-decoration: none;
 }
 
+.btn {
+    font-family: 'Raleway', sans-serif;
+}
+
 .pagination
 {
     border-radius: 0px;
@@ -79,13 +83,14 @@ border: 1px solid #ddd;
 
 p
 {
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Dosis', sans-serif;
     word-spacing: 3px;
-    font-size: 15px;
+    font-size: 17px;
 }
 h1, h2, h3, h4, h5, h6
 {
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 .send 
 {
@@ -188,7 +193,7 @@ li:last-child
 .widget.widget_iw_last_posts h5 
 {
     margin-bottom: 5px;
-    font-weight: bold;
+    font-weight: 400;
 }
 .widget h4 span, .special-service h2 span
 {
@@ -394,6 +399,7 @@ li:last-child
     line-height: 35px;
     margin-bottom: 26px;
     padding-top: 26px;
+    letter-spacing: 1px;
 }
 .welcome-btn
 {
@@ -528,7 +534,7 @@ height: 38px !important;
 .about-service h3 
 {
     padding: 12px 0px;
-    color: gray;
+    color: darkcyan;
 }
 
 .about-service p 
@@ -593,9 +599,10 @@ height: 38px !important;
     background-color: transparent;
     color: #46a1b4;
     border-radius: 0px;
-    font-size: 16px;
+    font-size: 15px;
     transition: all 0.3s ease-in;
-    padding: 8px 12px;
+    padding: 5px 12px;
+    margin: 4px 0px 0px 5px;
     border-color: #46a1b4;
 }
 .service-rm-btn:hover
@@ -681,7 +688,8 @@ margin-top: -60px;
     text-transform: uppercase;
     margin-bottom: 5px;
     display: block;
-    font-weight: 700;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
 }
 .doctor-info .position
 {
@@ -782,9 +790,11 @@ margin-top: -60px;
 
 
 .faq-header{
-  font-size: 2em;
-  border-bottom: 1px dotted #ccc;
-  padding: 1em 0;
+    font-size: 2em;
+    border-bottom: 1px dotted #ccc;
+    padding: 1em 0;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
 }
 
 
