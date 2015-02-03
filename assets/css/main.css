@@ -80,8 +80,8 @@ border: 1px solid #ddd;
 p
 {
     font-family: 'Pontano Sans', sans-serif;
-    word-spacing: 2px;
-    font-size: 17px;
+    word-spacing: 3px;
+    font-size: 15px;
 }
 h1, h2, h3, h4, h5, h6
 {
@@ -433,10 +433,10 @@ li:last-child
 {
     opacity: 0.7;
 }
-.fa-facebook , .fa-twitter ,.fa-google-plus , .fa-instagram , .fa-pinterest , .fa-skype{
+/* .fa-facebook , .fa-twitter ,.fa-google-plus , .fa-instagram , .fa-pinterest , .fa-skype{
 
     margin-top: 7px;
-}
+} */
 .form-control {
 height: 38px !important;
 }
@@ -805,7 +805,7 @@ margin-top: -60px;
   font-family: sans-serif; 
   float:left; 
   font-weight: 700; 
-  padding-right: 0.3em; 
+  padding-right: 0.62em; 
   -webkit-transition: all 200ms;
   -moz-transition: all 200ms;
   transition: all 200ms;
@@ -821,15 +821,30 @@ margin-top: -60px;
   -webkit-transition: all 200ms;
   -moz-transition: all 200ms;
   transition: all 200ms;
+  margin-top: -5px;
 }
 
 .faq-q {
     font-family: 'Raleway', sans-serif;
     cursor: pointer;
-    font-size: 1.5em;
+    font-size: 1.25em;
     background: rgba(249, 249, 249, 0.5);
     font-weight: 100;
     padding: 16px;
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+.faq-q:hover {
+    box-shadow: 0 1px 5px 0 #626262;
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
 }
 
 .faq-a {
@@ -902,18 +917,19 @@ main .info
 {
     border-right: 1px solid #eaeaea;
 }
+
+.blog-content main .info.list-inline li:first-child {
+    padding-left: 0px;
+}
+
 .blog-content main .info li 
 {
-    display: inline-block;
-    padding: 0 15px 0 0;
-    margin: 0 15px 0 0;
+    display: table-cell;
+    padding: 0 15px 0 15px;
 }
 
 main p {
-    margin-top: 23px;
-    padding: 35px;
     line-height: 30px;
-    background: rgb(252, 252, 252);
 }
 .rm-btn
 {
@@ -1109,7 +1125,6 @@ main p {
 .quick-contact span 
 {
     color: rgb(73, 77, 123);
-    text-shadow: 1px 1px rgb(179, 207, 207);
 }
 .quick-contact {
     font-size: 17px;
