@@ -501,7 +501,7 @@ height: 38px !important;
 }
 .service-wrapper
 {
-    background-color: rgba(45, 53, 56, 0.78);
+    background-color: rgba(45, 53, 56, 0.28);
     padding: 78px 0px;
     margin-top: 65px;
 }
@@ -624,7 +624,7 @@ margin-top: -60px;
 }
 .starting-wrapper
 {
-    background-color: rgba(0,0,0,0.32);
+    background-color: rgba(0,0,0,0.17);
     padding: 208px 0px;
     color: #fff;
 }
@@ -775,7 +775,7 @@ margin-top: -60px;
 }
 .faq-wrapper
 {
-    background-color: rgba(45, 53, 56, 0.78);
+    background-color: rgba(45, 53, 56, 0.62);
     padding: 78px 0px;
     margin-top: 65px;
 }
@@ -873,7 +873,7 @@ margin-top: -60px;
 }
 .blog-wrapper
 {
-    background-color: rgba(45, 53, 56, 0.78);
+    background-color: rgba(45, 53, 56, 0.62);
     padding: 78px 0px;
     margin-top: 65px;
 }
@@ -987,7 +987,7 @@ main p {
 }
 .gallery-wrapper
 {
-    background-color: rgba(25, 31, 34, 0.49);
+    background-color: rgba(25, 31, 34, 0.24);
     padding: 78px 0px;
     margin-top: 65px;
 }
@@ -1093,7 +1093,7 @@ main p {
 }
 .contact-wrapper
 {
-    background-color: rgba(45, 53, 56, 0.78);
+    background-color: rgba(45, 53, 56, 0.71);
     padding: 78px 0px;
     margin-top: 65px;
 }
