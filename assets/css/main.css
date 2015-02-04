@@ -29,7 +29,6 @@ Text Domain:
  * 7. - Contact
  * -----------------------------------------------------------------------------
  */
- @import url(http://fonts.googleapis.com/css?family=Raleway);
 
  * {outline: none !important;}
 
@@ -97,6 +96,11 @@ h1, h2, h3, h4, h5, h6
     margin-bottom: 20px;
 }
 
+.owl-pagination 
+{
+    display: none;
+}
+
 /* ----------------------------------------Header --------------------------------------------*/
 .section-title
 {
@@ -129,8 +133,7 @@ h1, h2, h3, h4, h5, h6
 
 .logo
 {
-    font-family: 'Abel', sans-serif;
-    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
 }
 .nav.navbar-nav 
 {
@@ -373,18 +376,15 @@ li:last-child
 }
 /*---------------------------------------------- 1.2 starting-text ----------------------------------*/
 
-
+section.starting-text 
+{
+    background-color: #3E8B90;
+    margin-top: -37px;
+}
 .welcome 
 {
-    
-    /* background-color: #6DBEC2; */
-    background-color: #3E8B90;
     padding: 48px 68px;
     text-align: center;
-    width: 100%;
-    margin-top: -37px;
-    z-index: 999;
-    position: relative;
 }
 .welcome-title 
 {
@@ -1247,19 +1247,43 @@ li.socials-icons
         box-shadow: none;
     }
 }
+
+@media (max-width: 991px){
+    .slider-inner-text {
+        margin: 162px 0px;
+    }
+}
+
+@media (max-width: 767px){
+    .slider-inner-text {
+        margin: 162px 58px;
+        width: 62%;
+    }
+}
+
 @media (max-width: 505px){
     section.content main .info li:not(:last-child) 
     {
         margin: 0 27px 10px 0;
     }   
-}
-    
-@media (max-width: 505px){
     section.content main .info li 
     {
         border: 0 !important;
         display: inline;
         margin: 0;
         padding: 0px;
+    }
+    .slider-inner h1{
+        font-size: 50px;
+    }
+    .slider-inner-text {
+        margin: 162px 13px;
+    }
+    .slider-inner-text p
+    {
+        font-size: 19px;
+    }
+    .welcome {
+        padding: 48px 20px;
     }
 }
