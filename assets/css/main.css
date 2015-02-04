@@ -876,7 +876,7 @@ margin-top: -60px;
   clear: both;
   color: #666;
   display: none;
-  padding-left: 1.5em;
+  padding: 1.5em;
 }
 /* ========================================== 5. Blog============================================= */
 .blog-content
@@ -1300,5 +1300,10 @@ li.socials-icons
     }
     .welcome {
         padding: 48px 20px;
+    }
+}
+@media(max-width: 319px) {
+    .heading-slider {
+        display: none;
     }
 }
