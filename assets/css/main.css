@@ -4,7 +4,7 @@ Theme URI: http://themewagon.com/demo/HealthCare/
 Author: ThemeWagon
 Author URI: http://themewagon.com/
 Description: A responsive theme for commercial medical purpose. Built with HTML5, CSS3, Bootstrap framework. Google fonts, Font Awesome Icon integrated
-Version: 1.2014.11
+Version: 1.1.2014.11
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 Tags: responsive layout, multiple-page, parallax 
@@ -70,8 +70,8 @@ a:hover
     border-radius: 0px;
 }
 .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
-    background-color: #085A6C;
-    border-color: #085A6C;
+    background-color: #46A1B4;
+    border-color: #5FA8AB;
 }
 .pagination>li>a, .pagination>li>span {
 
@@ -141,8 +141,8 @@ h1, h2, h3, h4, h5, h6
 }
 .navbar-default
 {
-    background-color: #267D90;
-    background-color: #085A6C;
+    /*background-color: #267D90;*/
+    background-color: #46a1b4;
 }
 .navbar-default .navbar-header .logo
 {
@@ -161,7 +161,8 @@ h1, h2, h3, h4, h5, h6
 }
 .navbar-default .navbar-nav>.active
 {
-    background-color: rgba(5, 207, 252, 0.62);
+    /*background-color: rgba(5, 207, 252, 0.62);*/
+    background-color: rgba(76, 214, 245, 0.62);
     border-top: 4px ridge rgb(5, 207, 252);
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus 
@@ -345,7 +346,8 @@ li:last-child
 /* -------------------------------------- 1.1 heading-slider---------------------------------------- */
 .slider-inner 
 {
-    background-color: rgba(21, 7, 7, 0.55);
+    /*background-color: rgba(21, 7, 7, 0.55);*/
+    background-color: rgba(51, 71, 90, 0.32);
     width: 100%;
     color: white;
     height: 700px;
@@ -393,7 +395,11 @@ li:last-child
 
 section.starting-text 
 {
-    background-color: #3E8B90;
+    background-color: rgba(70, 161, 180, 0.82);
+    /*background: -webkit-linear-gradient(left top, #085A6C , #3E8B90);
+    background: -o-linear-gradient(bottom right, #085A6C , #3E8B90);
+    background: -moz-linear-gradient(bottom right, #085A6C , #3E8B90);
+    background: linear-gradient(to bottom right, #085A6C , #3E8B90); */
     margin-top: -37px;
 }
 .welcome 
@@ -405,7 +411,9 @@ section.starting-text
 {
     font-size: 50px;
     padding-bottom: 15px;
-    color: #B0FFF6;
+    /*color: #B0FFF6;*/
+    color: #FFFFFF;
+    text-shadow: 1px 1px 2px #083944;
 }
 .welcome-txt 
 {
@@ -440,32 +448,34 @@ section.starting-text
     color: darkcyan;
     font-size: 29px;
 }
-.hservice:hover 
-{
-    background-color: #ececec;
-}
-
-.hservice:hover .service-img 
-{
-    opacity: 1;
-}
 
 .service-img 
 {
-    opacity: 0.7;
+    opacity: 0.9;
 }
 /* .fa-facebook , .fa-twitter ,.fa-google-plus , .fa-instagram , .fa-pinterest , .fa-skype{
 
     margin-top: 7px;
 } */
 .form-control {
-height: 38px !important;
+    height: 38px !important;
 }
 .hservice {
+    /*background: rgb(242, 247, 255);*/
+    background-color: rgba(185, 208, 240, 0.16);
+    border: 1px solid #CED8E7;
     margin: 30px 0px;
     padding-bottom: 30px;
     transition: all 0.3s ease-in;
-    background: rgb(242, 247, 255);
+}
+.hservice:hover 
+{
+    box-shadow: 0px 2px 3px 2px #CED8E7;
+}
+
+.hservice:hover .service-img 
+{
+    opacity: 1;
 }
 .service-description p 
 {
@@ -522,7 +532,8 @@ height: 38px !important;
 }
 .service-wrapper
 {
-    background-color: rgba(45, 53, 56, 0.28);
+    /*background-color: rgba(45, 53, 56, 0.28);*/
+    background-color: rgba(70, 161, 180, 0.62);
     padding: 78px 0px;
     margin-top: 65px;
 }
@@ -623,7 +634,7 @@ height: 38px !important;
 .service-rm-btn:hover
 {
     /* background-color: #46a1b4; */
-    background-color: darkcyan;
+    background-color: rgb(0, 139, 168);
     color: #fff;
     border-color: #3A90CD;
 }
@@ -632,11 +643,13 @@ height: 38px !important;
 
 /* ------------------------------------------  3.1 doctor-list --------------------------------- */
 .team-button {
-margin-top: -60px;
+    margin-top: -60px;
 }
 #starting
 {
     background: url(../img/doctors-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 @media (min-width:1100px){
 
@@ -1169,7 +1182,12 @@ main p {
 
 #footer
 {
-    background-color: #085A6C;
+    /*background-color: #085A6C;*/
+    background-color: #46A1B4;
+    /*background: -webkit-linear-gradient(left top, #085A6C , #3E8B90);
+    background: -o-linear-gradient(bottom right, #085A6C , #3E8B90);
+    background: -moz-linear-gradient(bottom right, #085A6C , #3E8B90);
+    background: linear-gradient(to bottom right, #085A6C , #3E8B90); */
     padding: 25px 0px;
 }
 .copy-right-text
@@ -1198,7 +1216,7 @@ li.socials-icons
     border-radius: 50%;
     border: 2px solid #fff;
     /* background: #6DBEC2; */
-    background-color: darkcyan;
+    background-color: #49C1DC;
     float: left;
     color: white;
     padding-top: 3px;
