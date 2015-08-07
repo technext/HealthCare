@@ -1197,6 +1197,16 @@ main p {
     padding-top: 25px;
 }
 
+.copy-right-text a {
+    color: #AFEEEE;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.copy-right-text a:hover {
+    color: #064B6D;
+}
+
 
 /* ----------------------------------- social media -------------------------------------------- */
 
